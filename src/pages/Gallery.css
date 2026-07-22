@@ -419,6 +419,9 @@ body.modal-open .menu {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 0.8rem;
   }
+  .gallery {
+  margin-top: 100px;
+}
 
   .gallery-item {
     border-radius: 15px;
