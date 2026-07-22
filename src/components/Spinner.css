@@ -1,0 +1,24 @@
+/* src/components/Spinner.css */
+.spinner-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #e8f0fe, #d4e0f5);
+}
+.spinner {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 6px solid #b0c8f0;
+  border-top-color: #1a4b8c;
+  animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner-wrapper p {
+  margin-top: 1.5rem;
+  color: #1a3a6b;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
