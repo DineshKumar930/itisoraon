@@ -38,18 +38,18 @@ export default function Admission() {
   };
 
   const trades = [
-    { name: 'Electrician', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },
-    { name: 'Fitter', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },
-    { name: 'MMV', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },
-    { name: 'RAC', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },
-    { name: 'Turner', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },
-    { name: 'Electronics Mechanic', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },   
-    { name: 'Welder', eligibility: '8th Pass', duration: '1 Year', govtFee: '₹480/yr', privateFee: '₹18,000/yr' },
-    { name: 'COPA', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹480/yr', privateFee: '₹15,400/yr' },
-    { name: 'CHNM', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹480/yr', privateFee: '₹15,400/yr' },
-    { name: 'Cosmetology', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹480/yr', privateFee: '₹15,400/yr' },
-    { name: 'Finance Executive', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹480/yr', privateFee: '₹15,400/yr' },
-    { name: 'Physiotherapy', eligibility: '8th Pass', duration: '1 Year', govtFee: '₹480/yr', privateFee: '₹15,400/yr' },
+    { name: 'Electrician', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },
+    { name: 'Fitter', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },
+    { name: 'MMV', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },
+    { name: 'RAC', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },
+    { name: 'Turner', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },
+    { name: 'Electronics Mechanic', eligibility: '10th Pass', duration: '2 Years', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },   
+    { name: 'Welder', eligibility: '8th Pass', duration: '1 Year', govtFee: '₹780/yr', privateFee: '₹18,000/yr' },
+    { name: 'COPA', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹780/yr', privateFee: '₹15,400/yr' },
+    { name: 'CHNM', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹780/yr', privateFee: '₹15,400/yr' },
+    { name: 'Cosmetology', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹780/yr', privateFee: '₹15,400/yr' },
+    { name: 'Finance Executive', eligibility: '10th Pass', duration: '1 Year', govtFee: '₹780/yr', privateFee: '₹15,400/yr' },
+    { name: 'Physiotherapy', eligibility: '8th Pass', duration: '1 Year', govtFee: '₹780/yr', privateFee: '₹15,400/yr' },
    
   ];
 
@@ -135,7 +135,7 @@ export default function Admission() {
           </table>
         </div>
         <div className="fee-note">
-          <p>General: ₹2000/yr · SC/ST: ₹500/yr (additional charges may apply)</p>
+          <p><strong>SC/ST Students:</strong> Government Seat Fee only ₹300 per year.</p>
         </div>
       </div>
 
