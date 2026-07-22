@@ -24,7 +24,7 @@ export default function Footer() {
               
             </div>
             <div>
-              <h3>राजकीय औद्योगिक प्रशिक्षण संस्थान, सोरांव</h3>
+              <h4>राजकीय औद्योगिक प्रशिक्षण संस्थान, सोरांव, प्रयागराज</h4>
               <p>Operated by CSC SPV under Public-Private Partnership (PPP) Model</p>
             </div>
           </div>
