@@ -11,6 +11,9 @@
   position: relative;
   overflow: hidden;
 }
+h4{
+  color: #0b2b5c;
+}
 
 /* Decorative top wave */
 .footer::before {
